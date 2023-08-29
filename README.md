@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="![2023-08-29_15-16-55](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/d0a35948-ac49-40e1-85c7-253719774b36)">
+  <img width="460" height="300" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/d0a35948-ac49-40e1-85c7-253719774b36">
 </p>
     
 # Last Minute CTF 2023
