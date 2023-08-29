@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/2e4eb5c8-1383-409d-bc53-957d99b4b7a3)">
+  <img width="460" height="300" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/2e4eb5c8-1383-409d-bc53-957d99b4b7a3">
 </p>
 
 
