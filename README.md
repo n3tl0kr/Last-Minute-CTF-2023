@@ -15,10 +15,11 @@ Whew, that was a mouthfull!  This year was my first spin at BTC and I just thoug
 - https://twitter.com/AreTillery
 
 ## Categories
-01 Intro
-02 Localhost
-03 Codes & Ciphers
-04 Forensics
-05 Network
-06 Investigation
-07 Reverse Engineering
+
+01 Intro\
+02 Localhost\
+03 Codes & Ciphers\
+04 Forensics\
+05 Network\
+06 Investigation\
+07 Reverse Engineering\
