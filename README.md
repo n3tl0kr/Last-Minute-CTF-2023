@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/d0a35948-ac49-40e1-85c7-253719774b36">
+  <img width="600" height="460" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/d0a35948-ac49-40e1-85c7-253719774b36">
 </p>
     
 # Last Minute CTF 2023
@@ -11,7 +11,7 @@ Whether you have never played a CTF before, or have been completing challenges f
 
 Whew, that was a mouthfull!  This year was my first spin at BTC and I just thought that I'd share the fruit of the CTF that I was able to complete.  Hats off to everyone involved and if you haven't been there yet, put it on your list for next year!
 
-https://blueteamcon.com/
-https://twitter.com/FrankMcG
-https://twitter.com/AlyssaM_InfoSec
-https://twitter.com/AreTillery
+- https://blueteamcon.com/
+- https://twitter.com/FrankMcG
+- https://twitter.com/AlyssaM_InfoSec
+- https://twitter.com/AreTillery
