@@ -69,7 +69,7 @@ After inspecting the source of the page, I find a malformed comment containing a
 
 ![image](Screenshots/Legends8.png)
 
-This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../aliceIV.html`). 
+This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../alice-IV.html`). 
 
 ![image](Screenshots/Legends9.png)
 
