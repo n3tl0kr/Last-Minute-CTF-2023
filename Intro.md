@@ -30,3 +30,20 @@
 **Clue** "Having completed your introductory tour of our CTF, we invite you to explore a little more to find two additional flags that have been hidden on our site. The first is hidden in a place not designed for humans..."   
 **Hint** ""  
 **Flag** "BTC{1fY0uC4nR34dTh1sY0u'r3@N3rd=}"  
+
+So, during a previous challenge, I noted that the robots.txt file in the root of the CTF server contained multiple bologna entries.  
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/5a68d796-4991-4604-a96a-e62aa4d5a744)
+
+One of these in particular caught my attention amid an ocean of easter eggs. 
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/a0c57b8a-c650-4c15-897e-1b13c38013f2)
+
+This file mentions another file that is not listed in the robots digest which tells me that there may be other hidden files as well.  However, navigating to the next hop here leads to another riddle so to say. 
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/0ce03f0d-21c1-46e3-90bb-48d7811817dc)
+
+Now we try to navigate to `../mystery.html` and poof, all of the sudden I'm looking at Chapter 1 of Alice In Wonderland, how cute. 
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/b01ac1a1-e78b-442d-bc5c-378f8e9494c3)
+
