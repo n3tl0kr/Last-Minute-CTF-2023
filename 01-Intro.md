@@ -65,7 +65,7 @@ Alright, proof of chapter 2!  But wait, theres another chapter at the bottom of 
 
 ![image](Screenshots/Legends7.png)
 
-After inspecting the source of the page, I find a malformed comment containing a reference to another html page. 
+After inspecting the source of the page, I find a malformed comment containing a reference to another html page. `caucus-race.html`
 
 ![image](Screenshots/Legends8.png)
 
