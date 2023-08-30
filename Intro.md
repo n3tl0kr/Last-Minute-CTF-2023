@@ -1,28 +1,27 @@
 ## Rules
-
 **Value** "5"  
 **Clue** "Read the Rules. Under stand the Rules. Follow the Rules.""  
 **Hint** ""  
 **Flag** "BTC{c6d18f3d857bda2f41e605d6ca81c80c}"  
 
 1. Navigate to the [Last Minute CTF](http://44.201.80.76/) dashboard and then to the **Rules** section. 
-
 2. The flag can be found on this page by expanding certain sections of text.
+
 <img width="1129" alt="Pasted image 20230825182503" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/156bea76-c62c-4f3e-a5b5-ff24ee1fa0a5">
 
 ## Writeups
-
 **Value** "5"  
 **Clue** "Learn about Challenge Writeups and Challenge Guides."  
 **Hint** ""  
 **Flag** "BTC{B0nusP01ntsM4keM3H4ppy--}"  
 
 1. Navigate to the [Last Minute CTF](http://44.201.80.76/) dashboard and then to the **Writeups** section. 
-
 2. Reading through the page, there is an *Example Writeup* section that includes instructions for this challenge.
+
 <img width="1131" alt="Pasted image 20230825182947" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/ad5402bc-d334-4b09-a025-544d6498566e">
 
 3. View the sourcecode of the writeups.htm page which includes the flag as directed.  The process to do this may vary depending on the web browser being used.
+
 <img width="1294" alt="Pasted image 20230825183403" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/53ad49fe-9698-4f00-b7a9-71b913bd2843">
 
 ## Not for Humans
@@ -35,7 +34,6 @@
 2. From the CTF page, navigate to http://44.201.80.76/robots.txt where the flag is presented in cleartext.
 
 <img width="1023" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/7cf01e23-8ce7-43ee-a0de-dd1b1740f7cb">
-
 
 ## Legends of the Hidden Flag  
 **Value** "10"  
@@ -89,7 +87,6 @@ From here, we are faced with another broken hyperlink.  This time, `turtle.html`
 
 <img width="1120" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/89e6cff4-a2d8-4b34-a5fc-7fb41fd20d2a">
 
-
 As you can see below, things are really getting wild now.  
 
 <img width="1117" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/cc2cd92d-b6dd-4ad2-b118-76d6e3baf5ff">
@@ -108,3 +105,11 @@ It looks like we've reached the grand finale!  The final evidence page contains 
 
 <img width="1120" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/aab6bb02-5fd4-4ba3-85de-d0bee12fe4a4">
 
+## Super Secure
+**Value** "10"  
+**Clue** "Having completed your introductory tour of our CTF, we invite you to explore a little more to find two additional flags that have been hidden on our site. The second is hidden in a place designed to showcase our SECURITY maturity, or something like that..."  
+**Hint** ""  
+**Flag** "BTC{Look@that,YouFoundItThisTime...}"  
+
+1. Based on the clue, I began to explore the CTF site looking for any other easter eggs within source code.
+2. When no other findings were identified, I moved to the [BlueTeamCon](https://www.blueteamcon.com) website to look for other potential clues.  Companies will often use a *security.txt* file to convey critical escalation information to security researchers for the sake of responsible disclosure and this file was indeed found as shown below, complete with a flag!!
