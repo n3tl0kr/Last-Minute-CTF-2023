@@ -97,11 +97,11 @@ This appears to be a clue, 2/3 of the next chapter.  "The Lobster" or "Lobster Q
 
 Now looking at the bottom of the Lobster page, we have another crafty little trick.  This type, there appears to be a hyperlink written backwards! `lmth.ChapterXI"=FERH"` should read `HREF="IXretpahC.html"`
 
-<img width="1080" alt="image" src="Screenshots/Legends14.png">
+<img width="1080" alt="image" src="Screenshots/Legends13.png">
 
 And now some URL encoded nonsense!  But a quick mouseover shows the actual link. `../Evidence.html`
 
-<img width="1114" alt="image" src="Screenshots/Legends15.png">
+<img width="1114" alt="image" src="Screenshots/Legends14.png">
 
 It looks like we've reached the grand finale!  The final evidence page contains our flag and that is it folks!  We've traversed all of the rabbit holes!
 
