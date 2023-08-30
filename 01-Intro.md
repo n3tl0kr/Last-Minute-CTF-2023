@@ -77,7 +77,7 @@ The next page appears broken as well so taking the clue from the source code, we
 
 Moving along, this page contains a link for another `html` page, however the page link is missing a '.' before `html`.  Fixing that takes us to yet another page. `(../mad-tea-party.html)`
 
-![image](Screenshots/Legends10.png)
+![image](Screenshots/madtea.png)
 
 And another trick! Lets check out `view-source.txt`!
 
