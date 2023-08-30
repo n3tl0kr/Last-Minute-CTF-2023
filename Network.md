@@ -25,7 +25,7 @@ This challenge forces you to interact with a flag generator application reminisc
 ## Flag Server v2
 **Value** "30"  
 **Clue** "We have upgraded the Last Minute Flag Server to version 2. Please grab one of the new flags from the new Last Minute Flag server: disabled"  
-**Hint** ""
+**Hint** ""  
 **Flag** "" 
 
 Unfortunately, this challenge was not completed!
