@@ -10,7 +10,7 @@ For this challenge, we are given a tarball containing what appears to be informa
 
 <img width="1249" alt="Pasted image 20230826140238" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/8ceda9a0-ee4d-4bf4-8de5-ff168add4065">
 
-### Any docx in a Storm  
+## Any docx in a Storm  
 **Value** "15"  
 **Clue** "When in a bind, sometimes you need to use their proprietary formats. But are they that proprietary?"  
 **Hint** ""  
@@ -23,3 +23,11 @@ For this challenge, we are presented with a Microsoft Word document (.docx).  A 
 <img width="740" alt="Pasted image 20230826141206" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/b5de90ba-17c4-4e9b-9002-e4416aa382b5">
 
 <img width="809" alt="Pasted image 20230826141228" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/6d72b07d-1551-4965-969e-c0352c2df2c2">
+
+## There's More  
+**Value** "30"  
+**Clue** "There's a second deleted file hiding in there... Keep looking! This challenge uses the same file as Finders keepers"  
+**Hint** ""  
+**Flag** ""  
+
+Unfortunately, this challenge was not completed.
