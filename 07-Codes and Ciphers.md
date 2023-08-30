@@ -8,6 +8,14 @@ For this challenge, a text file with the string
 `FH8+N8AC8E%5C$DAECCECKPC1*5 -DAWERZCQ7AT9E0ECXED-ED4EFZ2` 
 was provided with instructions to decode.  Leveraging the dencode.com engine, I was able to see quickly that the string was Base45 encoded.  Decoding the string produced the flag. 
 
+## Whirlpool  
+**Value** "20"  
+**Clue** "Please decode the attached message."  
+**Hint** ""  
+**Flag** ""  
+
+Unfortunately, I was not able to solve this challenge!  
+
 ## Last Minute Cypher  
 **Value** "10"  
 **Clue** "Decode the following file"  
@@ -21,3 +29,11 @@ This challenge included a text file with a fairly obvious pattern (xxx{}) which 
 
 **Decoded Text**  
 If we hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. BTC{GeneralMajorWebeloZappBrannigan}
+
+## math.random()   
+**Value** "75"  
+**Clue** "We have been using math.random to randomly generate numbers. Please take a look at some of our random numbers here: nc 54.163.140.212 10001"  
+**Hint** ""  
+**Flag** ""  
+
+Unfortunately, I was not able to solve this challenge!  
