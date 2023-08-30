@@ -17,9 +17,10 @@ Whew, that was a mouthfull!  This year was my first spin at BTC and I just thoug
 ## Categories
 
 01 Intro\
-02 Localhost\
-03 Codes & Ciphers\
-04 Forensics\
-05 Network\
-06 Investigation\
-07 Reverse Engineering\
+02 Reverse Engineering\
+03 Investigation\
+04 Network\
+05 Forensics\
+06 Misc\ 
+07 Codes & Ciphers\
+08 Localhost\
