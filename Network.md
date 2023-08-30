@@ -21,3 +21,11 @@ This challenge forces you to interact with a flag generator application reminisc
 2. Interacting with the system and providing the wrong input results in "You didn't say the magic word" 
 3. The `HELP` command displays several commands but no other input is allowed. 
 4. Found that appending `please` to the beginning of any command will successfully execute. 
+
+## Flag Server v2
+**Value** "30"  
+**Clue** "We have upgraded the Last Minute Flag Server to version 2. Please grab one of the new flags from the new Last Minute Flag server: disabled"  
+**Hint** ""
+**Flag** "" 
+
+Unfortunately, this challenge was not completed!
