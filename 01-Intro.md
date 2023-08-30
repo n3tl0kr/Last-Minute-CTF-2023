@@ -22,7 +22,7 @@
 
 3. View the sourcecode of the writeups.htm page which includes the flag as directed.  The process to do this may vary depending on the web browser being used.
 
-<img width="1294" alt="Pasted image 20230825183403" src="">
+<img width="1294" alt="Pasted image 20230825183403" src="Screenshots/Writeups2.png">
 
 ## Not for Humans
 **Value** "10"  
@@ -65,11 +65,11 @@ Alright, proof of chapter 2!  But wait, theres another chapter at the bottom of 
 
 ![image](Screenshots/Legends7.png)
 
-After inspecting the source of the page, I find a malformed comment containing a reference to another html page. 
+After inspecting the source of the page, I find a malformed comment containing a reference to another html page. `caucus-race.html`
 
 ![image](Screenshots/Legends8.png)
 
-This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../aliceIV.html). 
+This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../aliceIV.html`). 
 
 ![image](Screenshots/Legends9.png)
 
@@ -77,7 +77,7 @@ The next page appears broken as well so taking the clue from the source code, we
 
 Moving along, this page contains a link for another `html` page, however the page link is missing a '.' before `html`.  Fixing that takes us to yet another page. `(../mad-tea-party.html)`
 
-![image](Screenshots/Legends10.png)
+![image](Screenshots/madtea.png)
 
 And another trick! Lets check out `view-source.txt`!
 
