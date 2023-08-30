@@ -65,7 +65,7 @@ Unfortunately, this challenge was not solved!
 ## Pieces    
 **Value** "45"  
 **Clue** "
-<img width="269" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/123501ce-18bb-4e80-8903-9b17323a91e2">
+<img width="269" alt="image" src="Screenshots/Pieces.png">
 "  
 **Hint** ""  
 **Flag** ""   
