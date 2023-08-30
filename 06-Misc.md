@@ -47,7 +47,7 @@ BTC{68b40d89dffab559e8f5d273028a0472}
 **Hint** ""  
 **Flag** "BTC{SSH_AND_NO_ROOT_FILES_YET}"  
 
-This challenge actually relies on another challenge in the [](Forensics.md) category. With the file provided (`file.fs`) from the **Finders Keepers** challenge:
+This challenge actually relies on another challenge in the [Forensics](05-Forensics.md) category. With the file provided (`file.fs`) from the **Finders Keepers** challenge:
 
 1. On a Linux system, create a folder 
   `mkdir -p /mnt/test`
