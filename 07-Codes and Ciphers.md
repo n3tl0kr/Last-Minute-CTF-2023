@@ -1,7 +1,7 @@
 ## All the Base  
 **Value** "15"  
 **Clue** "Please decode the attached message.  
-**Hint** ""
+**Hint** ""  
 **Flag** "BTC{An.Imbalance.in.the.Poppability!}"  
 
 For this challenge, a text file with the string 
@@ -11,7 +11,7 @@ was provided with instructions to decode.  Leveraging the dencode.com engine, I 
 ## Last Minute Cypher  
 **Value** "10"  
 **Clue** "Decode the following file"  
-**Hint**
+**Hint** ""  
 **Flag** "BTC{GeneralMajorWebeloZappBrannigan}"  
 
 This challenge included a text file with a fairly obvious pattern (xxx{}) which initially led me to believe that I was dealing with a mono-alphabetic substitution cypher.  However, upon further inspection, I found that the encryption technique used was actually Vignere.  This was solved using an online decoder tool. 
