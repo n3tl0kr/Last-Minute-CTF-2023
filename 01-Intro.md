@@ -59,51 +59,51 @@ Now we try to navigate to `../mystery.html` and poof, all of the sudden I'm look
 
 At the bottom of this page I find another hyperlink, this time a `mystery2.html` page. I have to admin that I'm slightly intrigued at this point. 
 
-![image](Screenshots/Legends5.png)
+![image](Screenshots/Legends6.png)
 
 Alright, proof of chapter 2!  But wait, theres another chapter at the bottom of the page but this is no hyperlink. 
 
-![image](Screenshots/Legends6.png)
+![image](Screenshots/Legends7.png)
 
 After inspecting the source of the page, I find a malformed comment containing a reference to another html page. 
 
-![image](Screenshots/Legends7.png)
+![image](Screenshots/Legends8.png)
 
 This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../aliceIV.html). 
 
-![image](Screenshots/Legends8.png)
+![image](Screenshots/Legends9.png)
 
 The next page appears broken as well so taking the clue from the source code, we add a roman numeral to the URL. (`../Chapter(#).html` to `../ChapterVI.html`.  
 
 Moving along, this page contains a link for another `html` page, however the page link is missing a '.' before `html`.  Fixing that takes us to yet another page. `(../mad-tea-party.html)`
 
-![image](Screenshots/Legends9.png)
+![image](Screenshots/Legends10.png)
 
 And another trick! Lets check out `view-source.txt`!
 
-<img width="1118" alt="image" src="Screenshots/Legends10.png">
+<img width="1118" alt="image" src="Screenshots/Legends11.png">
 
 From here, we are faced with another broken hyperlink.  This time, `turtle.html` seems to do the trick.
 
-<img width="1120" alt="image" src="Screenshots/Legends11.png">
+<img width="1120" alt="image" src="Screenshots/Legends12.png">
 
 As you can see below, things are really getting wild now.  
 
-<img width="1117" alt="image" src="Screenshots/Legends12.png">
+<img width="1117" alt="image" src="Screenshots/Legends13.png">
 
 This appears to be a clue, 2/3 of the next chapter.  "The Lobster" or "Lobster Quadrille" are the first things that come to mind, lets check it out!  `LobsterQuadrille.html` works!  Lets go!
 
 Now looking at the bottom of the Lobster page, we have another crafty little trick.  This type, there appears to be a hyperlink written backwards! `lmth.ChapterXI"=FERH"` should read `HREF="IXretpahC.html"`
 
-<img width="1080" alt="image" src="Screenshots/Legends13.png">
+<img width="1080" alt="image" src="Screenshots/Legends14.png">
 
 And now some URL encoded nonsense!  But a quick mouseover shows the actual link. `../Evidence.html`
 
-<img width="1114" alt="image" src="Screenshots/Legends14.png">
+<img width="1114" alt="image" src="Screenshots/Legends15.png">
 
 It looks like we've reached the grand finale!  The final evidence page contains our flag and that is it folks!  We've traversed all of the rabbit holes!
 
-<img width="1120" alt="image" src="Screenshots/Legends15.png">
+<img width="1120" alt="image" src="Screenshots/Legends16.png">
 
 ## Super Secure
 **Value** "10"  
