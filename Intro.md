@@ -31,6 +31,13 @@
 **Hint** ""  
 **Flag** "BTC{1fY0uC4nR34dTh1sY0u'r3@N3rd=}"  
 
+
+## Legends of the Hidden Flag  
+**Value** "10"  
+**Clue** "Tales tell of a hidden flag somewhere on the scoreboard. You may need to dig around to find it."  
+**Hint** ""  
+**Flag** "BTC{Th3-nois3-th4t-blu3-mak3s.}"  
+
 So, during a previous challenge, I noted that the robots.txt file in the root of the CTF server contained multiple bologna entries.  
 
 ![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/5a68d796-4991-4604-a96a-e62aa4d5a744)
