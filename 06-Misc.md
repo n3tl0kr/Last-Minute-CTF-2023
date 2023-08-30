@@ -97,9 +97,9 @@ In this challenge, I was provided with four different text files but there appea
 
 ## Feedback
 **Value** ""  
-**Clue** "Please click on the following link and respond with feedback on the CTF. We would very much like to know what you enjoyed as well as your favorite challenge(s).
-          https://forms.gle/4tC623VP7ZSNTMJf9
-          We're giving this a good amount of points as we're very interested in the responses."  
+**Clue** "Please click on the following link and respond with feedback on the CTF. We would very much like to know what you enjoyed as well as your favorite challenge(s).  
+          https://forms.gle/4tC623VP7ZSNTMJf9  
+          We're giving this a good amount of points as we're very interested in the responses."    
 **Hint** ""  
 **Flag** "BTC{Thanks.for-the_feedback!}"  
 
