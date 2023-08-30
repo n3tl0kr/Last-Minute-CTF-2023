@@ -1,9 +1,9 @@
 ## Rules
 
-**Value** "5"
-**Clue** "Read the Rules. Under stand the Rules. Follow the Rules.""
-**Hint** ""
-**Flag** "BTC{c6d18f3d857bda2f41e605d6ca81c80c}"
+**Value** "5"  
+**Clue** "Read the Rules. Under stand the Rules. Follow the Rules.""  
+**Hint** ""  
+**Flag** "BTC{c6d18f3d857bda2f41e605d6ca81c80c}"  
 
 1. Navigate to the [Last Minute CTF](http://44.201.80.76/) dashboard and then to the **Rules** section. 
 2. The flag can be found on this page by expanding certain sections of text.
@@ -11,10 +11,10 @@
 
 ## Writeups
 
-**Value** "5"
-**Clue** "Learn about Challenge Writeups and Challenge Guides."
-**Hint** ""
-**Flag** "BTC{B0nusP01ntsM4keM3H4ppy--}"
+**Value** "5"  
+**Clue** "Learn about Challenge Writeups and Challenge Guides."  
+**Hint** ""  
+**Flag** "BTC{B0nusP01ntsM4keM3H4ppy--}"  
 
 1. Navigate to the [Last Minute CTF](http://44.201.80.76/) dashboard and then to the **Writeups** section. 
 2. Reading through the page, there is an *Example Writeup* section that includes instructions for this challenge.
