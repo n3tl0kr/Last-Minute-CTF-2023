@@ -83,11 +83,11 @@ Moving along, this page contains a link for another `html` page, however the pag
 
 And another trick! Lets check out `view-source.txt`!
 
-<img width="1118" alt="image" src="Screenshots/Legends10.png">
+<img width="1118" alt="image" src="Screenshots/Legends11.png">
 
 From here, we are faced with another broken hyperlink.  This time, `turtle.html` seems to do the trick.
 
-<img width="1120" alt="image" src="Screenshots/Legends11.png">
+<img width="1120" alt="image" src="Screenshots/turtle.png">
 
 As you can see below, things are really getting wild now.  
 
