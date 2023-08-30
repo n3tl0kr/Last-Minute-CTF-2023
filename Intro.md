@@ -47,3 +47,28 @@ Now we try to navigate to `../mystery.html` and poof, all of the sudden I'm look
 
 ![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/b01ac1a1-e78b-442d-bc5c-378f8e9494c3)
 
+At the bottom of this page I find another hyperlink, this time a `myster2.html` page. I have to admin that I'm slightly intrigued at this point. 
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/25dda6d3-5198-4eb2-98a7-e7f25367ff7d)
+
+Alright, proof of chapter 2!  But wait, theres another chapter at the bottom of the page but this is no hyperlink. 
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/ce794cc4-1038-4bc0-84b8-31a5d63b85e8)
+
+After inspecting the source of the page, I find a malformed comment containing a reference to another html page. 
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/059a53fc-c982-4874-bdb6-c78bf56e24b6)
+
+This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../aliceIV.html). 
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/bcec669c-c8a3-40d5-acef-bd396503d085)
+
+The next page appears broken as well so taking the clue from the source code, we add a roman numeral to the URL. (`../Chapter(#).html` to `../ChapterVI.html`.  
+
+Moving along, this page contains a link for another `html` page, however the page link is missing a '.' before `html`.  Fixing that takes us to yet another page. `(../mad-tea-party.html)`
+
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/78260097-17b2-4e50-8723-6b1c253392a8)
+
+
+
+
