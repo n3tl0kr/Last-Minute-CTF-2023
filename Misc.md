@@ -57,4 +57,29 @@ This challenge provided a text file called `readme.txt` which contained a series
 **Hint** ""  
 **Flag** ""  
 
-This challenge actually relies on another challenge in the [](Investigation.md) category. 
+This challenge actually relies on another challenge in the [](Forensics.md) category. With the file provided (`file.fs`) from the **Finders Keepers** challenge:
+
+1. On a Linux system, create a folder 
+  `mkdir -p /mnt/test`
+2. Mount the .fs file as an EXT3 partition
+  `sudo mount -t loop file.fs /mnt/test`
+3. Within the newly mounted partition, we find a file containing an SSH private key.
+
+<img width="965" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/ed127f44-f84f-4f2e-8c0e-85ee7810945b">
+
+4. With this key captured, we can actually connect to the server mentioned in the file name using standard SSH.  First, we will copy the key out and modify the name for ease of use and then use the useraccount and IP address combination first observed in that file name. 
+
+```
+┌──(kali㉿kali)-[/mnt/test]
+└─$ cp blueteamcon@159.203.84.152 ~/Desktop/ssh.key
+                                                                                                                                                                
+┌──(kali㉿kali)-[/mnt/test]
+└─$ cd ~/Desktop                                   
+                                                                                                                                                                
+┌──(kali㉿kali)-[~/Desktop]
+└─$ ls
+Blueteamcon  file.fs  spiral.txt  ssh.key  Theres_more
+                                                                                                                                                                
+┌──(kali㉿kali)-[~/Desktop]
+└─$ ssh -i ssh.key blueteamcon@159.203.84.152
+```
