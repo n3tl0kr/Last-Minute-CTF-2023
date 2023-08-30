@@ -43,10 +43,10 @@ This file `DqKJayFVYAEr2iZ.jpeg` was located within the /Users/frankb/Pictures d
 
 Unfortunately, this challenge was not solved!
 
-## Root Cause Analysis 
-**Value** "25"
-**Clue** "bluteamcon. Go find the goods."
-**Hint** ""
-**Flag** "" 
+## Root Cause Analysis   
+**Value** "25"  
+**Clue** "bluteamcon. Go find the goods."  
+**Hint** ""  
+**Flag** ""   
 
 Unfortunately, this challenge was not solved!
