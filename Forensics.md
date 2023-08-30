@@ -1,5 +1,5 @@
 ## Finders Keepers  
-**Value** ""  
+**Value** "10"  
 **Clue** "Here's a file. It has files in it. Maybe it used to have more?"  
 **Hint** ""  
 **Flag** "BTC{bal33t3ed}"  
@@ -11,7 +11,7 @@ For this challenge, we are given a tarball containing what appears to be informa
 <img width="1249" alt="Pasted image 20230826140238" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/8ceda9a0-ee4d-4bf4-8de5-ff168add4065">
 
 ### Any docx in a Storm  
-**Value** ""  
+**Value** "15"  
 **Clue** "When in a bind, sometimes you need to use their proprietary formats. But are they that proprietary?"  
 **Hint** ""  
 **Flag** "BTC{docx-is-just-a-dot-zip}"  
