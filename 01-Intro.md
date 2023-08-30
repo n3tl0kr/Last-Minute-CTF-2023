@@ -71,9 +71,11 @@ After inspecting the source of the page, I find a malformed comment containing a
 
 This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../alice-IV.html`). 
 
-![image](Screenshots/alice_iv.png)
+![image](Screenshots/Legends9.png)
 
 The next page appears broken as well so taking the clue from the source code, we add a roman numeral to the URL. (`../Chapter(#).html` to `../ChapterVI.html`.  
+
+![image](Screenshots/alice_iv.png)
 
 Moving along, this page contains a link for another `html` page, however the page link is missing a '.' before `html`.  Fixing that takes us to yet another page. `(../mad-tea-party.html)`
 
