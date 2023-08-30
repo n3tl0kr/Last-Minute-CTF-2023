@@ -50,3 +50,11 @@ BTC{68b40d89dffab559e8f5d273028a0472}
 This challenge provided a text file called `readme.txt` which contained a series of bash color codes. When read in a terminal with cat, it produces a QR code which is actually a flag.
 
 <img width="440" alt="Pasted image 20230826163555" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/547f32a7-e289-4069-be84-5e0aa85ac979">
+
+## Did Someone Find My Blue Team Con Key?
+**Value** "10"   
+**Clue** "If you find my key, I hope you know what to do with it."  
+**Hint** ""  
+**Flag** ""  
+
+This challenge actually relies on another challenge in the  section. 
