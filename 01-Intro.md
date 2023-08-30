@@ -18,11 +18,11 @@
 1. Navigate to the [Last Minute CTF](http://44.201.80.76/) dashboard and then to the **Writeups** section. 
 2. Reading through the page, there is an *Example Writeup* section that includes instructions for this challenge.
 
-<img width="1131" alt="Pasted image 20230825182947" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/ad5402bc-d334-4b09-a025-544d6498566e">
+<img width="1131" alt="Pasted image 20230825182947" src="Screenshots/Writeups1.png">
 
 3. View the sourcecode of the writeups.htm page which includes the flag as directed.  The process to do this may vary depending on the web browser being used.
 
-<img width="1294" alt="Pasted image 20230825183403" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/53ad49fe-9698-4f00-b7a9-71b913bd2843">
+<img width="1294" alt="Pasted image 20230825183403" src="">
 
 ## Not for Humans
 **Value** "10"  
@@ -33,7 +33,7 @@
 1. Based on the clue given, it is likely that the reference points to a robots.txt file which is used to control which resources in a web page are crawled by various search engines. 
 2. From the CTF page, navigate to http://44.201.80.76/robots.txt where the flag is presented in cleartext.
 
-<img width="1023" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/7cf01e23-8ce7-43ee-a0de-dd1b1740f7cb">
+<img width="1023" alt="image" src="Screenshots/NotForHumans1.png">
 
 ## Legends of the Hidden Flag  
 **Value** "10"  
@@ -43,67 +43,67 @@
 
 So, during a previous challenge, I noted that the robots.txt file in the root of the CTF server contained multiple bologna entries.  
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/5a68d796-4991-4604-a96a-e62aa4d5a744)
+![image](Screenshots/Legends1.png)
 
 One of these in particular caught my attention amid an ocean of easter eggs. 
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/a0c57b8a-c650-4c15-897e-1b13c38013f2)
+![image](Screenshots/Legends2.png)
 
 This file mentions another file that is not listed in the robots digest which tells me that there may be other hidden files as well.  However, navigating to the next hop here leads to another riddle so to say. 
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/0ce03f0d-21c1-46e3-90bb-48d7811817dc)
+![image](Screenshots/Legends3.png)
 
 Now we try to navigate to `../mystery.html` and poof, all of the sudden I'm looking at Chapter 1 of Alice In Wonderland, how cute. 
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/b01ac1a1-e78b-442d-bc5c-378f8e9494c3)
+![image](Screenshots/Legends4.png)
 
 At the bottom of this page I find another hyperlink, this time a `myster2.html` page. I have to admin that I'm slightly intrigued at this point. 
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/25dda6d3-5198-4eb2-98a7-e7f25367ff7d)
+![image](Screenshots/Legends5.png)
 
 Alright, proof of chapter 2!  But wait, theres another chapter at the bottom of the page but this is no hyperlink. 
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/ce794cc4-1038-4bc0-84b8-31a5d63b85e8)
+![image](Screenshots/Legends6.png)
 
 After inspecting the source of the page, I find a malformed comment containing a reference to another html page. 
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/059a53fc-c982-4874-bdb6-c78bf56e24b6)
+![image](Screenshots/Legends7.png)
 
 This next chapter looks a little more strange with a long list of reference links.  However, only one of them appear to be functional (`../aliceIV.html). 
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/bcec669c-c8a3-40d5-acef-bd396503d085)
+![image](Screenshots/Legends8.png)
 
 The next page appears broken as well so taking the clue from the source code, we add a roman numeral to the URL. (`../Chapter(#).html` to `../ChapterVI.html`.  
 
 Moving along, this page contains a link for another `html` page, however the page link is missing a '.' before `html`.  Fixing that takes us to yet another page. `(../mad-tea-party.html)`
 
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/78260097-17b2-4e50-8723-6b1c253392a8)
+![image](Screenshots/Legends9.png)
 
 And another trick! Lets check out `view-source.txt`!
 
-<img width="1118" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/3917ac42-aa55-4ab9-be33-16e294f8ecc6">
+<img width="1118" alt="image" src="Screenshots/Legends10.png">
 
 From here, we are faced with another broken hyperlink.  This time, `turtle.html` seems to do the trick.
 
-<img width="1120" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/89e6cff4-a2d8-4b34-a5fc-7fb41fd20d2a">
+<img width="1120" alt="image" src="Screenshots/Legends11.png">
 
 As you can see below, things are really getting wild now.  
 
-<img width="1117" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/cc2cd92d-b6dd-4ad2-b118-76d6e3baf5ff">
+<img width="1117" alt="image" src="Screenshots/Legends12.png">
 
 This appears to be a clue, 2/3 of the next chapter.  "The Lobster" or "Lobster Quadrille" are the first things that come to mind, lets check it out!  `LobsterQuadrille.html` works!  Lets go!
 
 Now looking at the bottom of the Lobster page, we have another crafty little trick.  This type, there appears to be a hyperlink written backwards! `lmth.ChapterXI"=FERH"` should read `HREF="IXretpahC.html"`
 
-<img width="1080" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/d756da0a-4d08-4a35-b47f-a6970211f48e">
+<img width="1080" alt="image" src="Screenshots/Legends13.png">
 
 And now some URL encoded nonsense!  But a quick mouseover shows the actual link. `../Evidence.html`
 
-<img width="1114" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/f969b251-11eb-4a91-99c5-24207b26be51">
+<img width="1114" alt="image" src="Screenshots/Legends14.png">
 
 It looks like we've reached the grand finale!  The final evidence page contains our flag and that is it folks!  We've traversed all of the rabbit holes!
 
-<img width="1120" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/aab6bb02-5fd4-4ba3-85de-d0bee12fe4a4">
+<img width="1120" alt="image" src="Screenshots/Legends15.png">
 
 ## Super Secure
 **Value** "10"  
@@ -114,5 +114,5 @@ It looks like we've reached the grand finale!  The final evidence page contains 
 1. Based on the clue, I began to explore the CTF site looking for any other easter eggs within source code.
 2. Companies will often use a *security.txt* file to convey critical escalation information to security researchers for the sake of responsible disclosure and this file was indeed found as shown below, complete with a flag!!
 
-<img width="1020" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/88b65545-c8fe-4ded-b48a-4c36cfcfd16b">
+<img width="1020" alt="image" src="Screenshots/SuperSecure1.png">
 
