@@ -55,7 +55,7 @@ This challenge provided a text file called `readme.txt` which contained a series
 **Value** "10"   
 **Clue** "If you find my key, I hope you know what to do with it."  
 **Hint** ""  
-**Flag** ""  
+**Flag** "BTC{SSH_AND_NO_ROOT_FILES_YET}"  
 
 This challenge actually relies on another challenge in the [](Forensics.md) category. With the file provided (`file.fs`) from the **Finders Keepers** challenge:
 
@@ -83,3 +83,8 @@ Blueteamcon  file.fs  spiral.txt  ssh.key  Theres_more
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ ssh -i ssh.key blueteamcon@159.203.84.152
 ```
+5. Run "cat .flag" and the flag will output to the screen
+   
+![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/605fab4a-7cf9-4080-8f72-4b2b3a6c7395)
+
+6. The final flag is BTC{SSH_AND_NO_ROOT_FILES_YET}
