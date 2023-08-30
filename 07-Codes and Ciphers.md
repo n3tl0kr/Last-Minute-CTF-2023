@@ -16,8 +16,8 @@ was provided with instructions to decode.  Leveraging the dencode.com engine, I 
 
 This challenge included a text file with a fairly obvious pattern (xxx{}) which initially led me to believe that I was dealing with a mono-alphabetic substitution cypher.  However, upon further inspection, I found that the encryption technique used was actually Vignere.  This was solved using an online decoder tool. 
 
-Ciphertext
+**Ciphertext**  
 `Tf ox tqg naee bmexarsx, xse jxeb bz mlp dgfuvbyl atld ymty fbop a zhgar iy glrvl. Oprwdqltw. UFK{TygicadFmrblPimedhLicjUvlnfbsia}`
 
-Decoded Text
+**Decoded Text**  
 If we hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. BTC{GeneralMajorWebeloZappBrannigan}
