@@ -22,7 +22,7 @@
 
 3. View the sourcecode of the writeups.htm page which includes the flag as directed.  The process to do this may vary depending on the web browser being used.
 
-<img width="1294" alt="Pasted image 20230825183403" src="">
+<img width="1294" alt="Pasted image 20230825183403" src="Screenshots/Writeups2.png">
 
 ## Not for Humans
 **Value** "10"  
