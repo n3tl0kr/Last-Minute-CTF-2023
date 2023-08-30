@@ -88,7 +88,11 @@ Now looking at the bottom of the Lobster page, we have another crafty little tri
 
 <img width="1080" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/d756da0a-4d08-4a35-b47f-a6970211f48e">
 
-And now some URL encoded nonsense!  But a quick mouseover shows the actual link. 
+And now some URL encoded nonsense!  But a quick mouseover shows the actual link. `../Evidence.html`
 
 <img width="1114" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/f969b251-11eb-4a91-99c5-24207b26be51">
+
+It looks like we've reached the grand finale!  The final evidence page contains our flag and that is it folks!  We've traversed all of the rabbit holes!
+
+<img width="1120" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/aab6bb02-5fd4-4ba3-85de-d0bee12fe4a4">
 
