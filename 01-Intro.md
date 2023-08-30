@@ -103,7 +103,7 @@ And now some URL encoded nonsense!  But a quick mouseover shows the actual link.
 
 It looks like we've reached the grand finale!  The final evidence page contains our flag and that is it folks!  We've traversed all of the rabbit holes!
 
-<img width="1120" alt="image" src="Screenshots/Legends16.png">
+<img width="1120" alt="image" src="Screenshots/Legends15.png">
 
 ## Super Secure
 **Value** "10"  
