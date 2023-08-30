@@ -6,7 +6,7 @@
 
 In order to solve this challenge, a PDF document was downloaded from the challenge site.  This documented seemed to drone on and on about a football match.  Knowing the format of the flag, I simply ran a free text search in the pdf for the string "BTC{" which presented the text underneath of an overlay color block.  
 
-![[Pasted image 20230826123957.png]]
+<img width="912" alt="Pasted image 20230826123957" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/72c9c54d-225f-42d4-bc00-41ca74395a54">
 
 ## Black Boxes  
 **Value** "10"  
@@ -16,7 +16,7 @@ In order to solve this challenge, a PDF document was downloaded from the challen
 
 In this challenge, I was provided with four different text files but there appeared to be nothing obvious about any of them.  After analysis was exhausted, I began to work with other challenges until receiving a notification from the challenge administrators stating that an issue had been fixed.  Upon reviewing the new files, I found that certain characters were blacked out in in the file `num1.txt`.    The files were compared directly and all of the obfuscated characters were collected to complete the flag.   
 
-![[Pasted image 20230826183925.png]]
+<img width="682" alt="Pasted image 20230826183925" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/bd636454-2971-409c-9eb0-e4f41bb3e4aa">
 
 ## Searches  
 **Value** ""  
@@ -49,4 +49,4 @@ BTC{68b40d89dffab559e8f5d273028a0472}
 
 This challenge provided a text file called `readme.txt` which contained a series of bash color codes. When read in a terminal with cat, it produces a QR code which is actually a flag.
 
-![[Pasted image 20230826163555.png]]
+<img width="440" alt="Pasted image 20230826163555" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/547f32a7-e289-4069-be84-5e0aa85ac979">
