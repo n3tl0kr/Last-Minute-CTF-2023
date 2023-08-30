@@ -34,6 +34,8 @@
 1. Based on the clue given, it is likely that the reference points to a robots.txt file which is used to control which resources in a web page are crawled by various search engines. 
 2. From the CTF page, navigate to http://44.201.80.76/robots.txt where the flag is presented in cleartext.
 
+<img width="1023" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/7cf01e23-8ce7-43ee-a0de-dd1b1740f7cb">
+
 
 ## Legends of the Hidden Flag  
 **Value** "10"  
