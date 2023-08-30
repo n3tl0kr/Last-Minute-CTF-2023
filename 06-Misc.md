@@ -6,7 +6,7 @@
 
 In order to solve this challenge, a PDF document was downloaded from the challenge site.  This documented seemed to drone on and on about a football match.  Knowing the format of the flag, I simply ran a free text search in the pdf for the string "BTC{" which presented the text underneath of an overlay color block.  
 
-<img width="912" alt="Pasted image 20230826123957" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/72c9c54d-225f-42d4-bc00-41ca74395a54">
+<img width="912" alt="Pasted image 20230826123957" src="Screenshots/Hidden.png">
 
 ## Did Someone Find My Blue Team Con Key?
 **Value** "10"   
@@ -22,7 +22,7 @@ This challenge actually relies on another challenge in the [Forensics](05-Forens
   `sudo mount -t loop file.fs /mnt/test`
 3. Within the newly mounted partition, we find a file containing an SSH private key.
 
-<img width="965" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/ed127f44-f84f-4f2e-8c0e-85ee7810945b">
+<img width="965" alt="image" src="Screenshots/BlueTeamKey.png">
 
 4. With this key captured, we can actually connect to the server mentioned in the file name using standard SSH.  First, we will copy the key out and modify the name for ease of use and then use the useraccount and IP address combination first observed in that file name. 
 
@@ -42,7 +42,7 @@ Blueteamcon  file.fs  spiral.txt  ssh.key  Theres_more
 ```
 5. Run "cat .flag" and the flag will output to the screen
    
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/605fab4a-7cf9-4080-8f72-4b2b3a6c7395)
+![image](Screenshots/BlueTeamKey.png)
 
 6. The final flag is BTC{SSH_AND_NO_ROOT_FILES_YET}
 
@@ -54,7 +54,7 @@ Blueteamcon  file.fs  spiral.txt  ssh.key  Theres_more
 
 This challenge provided a text file called `readme.txt` which contained a series of bash color codes. When read in a terminal with cat, it produces a QR code which is actually a flag.
 
-<img width="440" alt="Pasted image 20230826163555" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/547f32a7-e289-4069-be84-5e0aa85ac979">
+<img width="440" alt="Pasted image 20230826163555" src="Screenshots/Decode.png">
 
 ## Talkative
 **Value** ""
@@ -93,7 +93,7 @@ BTC{68b40d89dffab559e8f5d273028a0472}
 
 In this challenge, I was provided with four different text files but there appeared to be nothing obvious about any of them.  After analysis was exhausted, I began to work with other challenges until receiving a notification from the challenge administrators stating that an issue had been fixed.  Upon reviewing the new files, I found that certain characters were blacked out in in the file `num1.txt`.    The files were compared directly and all of the obfuscated characters were collected to complete the flag.   
 
-<img width="682" alt="Pasted image 20230826183925" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/bd636454-2971-409c-9eb0-e4f41bb3e4aa">
+<img width="682" alt="Pasted image 20230826183925" src="Screenshots/BlackBoxes_1.png">
 
 ## Feedback
 **Value** ""  
@@ -105,5 +105,5 @@ In this challenge, I was provided with four different text files but there appea
 
 This challenge is self explanatory and the flag is provided once the survey is completed!
 
-<img width="756" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/a5fdc427-0cfc-4492-81c7-15ba7dcaad3b">
+<img width="756" alt="image" src="Screenshots/Feedback.png">
 
