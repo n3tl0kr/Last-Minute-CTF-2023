@@ -1,8 +1,8 @@
-## They See Me Rolling...
-**Value** "15"
-**Clue** "Please monitor the following log server for updates on flags."
-**Hint** ""
-**Flag** "BTC{A novel about Яussian Gulags.}"
+## They See Me Rolling...  
+**Value** "15"  
+**Clue** "Please monitor the following log server for updates on flags."  
+**Hint** ""  
+**Flag** "BTC{A novel about Яussian Gulags.}"  
 
 For this challenge, we are asked to listen to a port on a remote server.  
 `> nc 54.163.140.212 33333`
