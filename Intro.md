@@ -69,6 +69,26 @@ Moving along, this page contains a link for another `html` page, however the pag
 
 ![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/78260097-17b2-4e50-8723-6b1c253392a8)
 
+And another trick! Lets check out `view-source.txt`!
+
+<img width="1118" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/3917ac42-aa55-4ab9-be33-16e294f8ecc6">
+
+From here, we are faced with another broken hyperlink.  This time, `turtle.html` seems to do the trick.
+
+<img width="1120" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/89e6cff4-a2d8-4b34-a5fc-7fb41fd20d2a">
 
 
+As you can see below, things are really getting wild now.  
+
+<img width="1117" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/cc2cd92d-b6dd-4ad2-b118-76d6e3baf5ff">
+
+This appears to be a clue, 2/3 of the next chapter.  "The Lobster" or "Lobster Quadrille" are the first things that come to mind, lets check it out!  `LobsterQuadrille.html` works!  Lets go!
+
+Now looking at the bottom of the Lobster page, we have another crafty little trick.  This type, there appears to be a hyperlink written backwards! `lmth.ChapterXI"=FERH"` should read `HREF="IXretpahC.html"`
+
+<img width="1080" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/d756da0a-4d08-4a35-b47f-a6970211f48e">
+
+And now some URL encoded nonsense!  But a quick mouseover shows the actual link. 
+
+<img width="1114" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/f969b251-11eb-4a91-99c5-24207b26be51">
 
