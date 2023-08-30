@@ -24,3 +24,9 @@
 
 3. View the sourcecode of the writeups.htm page which includes the flag as directed.  The process to do this may vary depending on the web browser being used.
 <img width="1294" alt="Pasted image 20230825183403" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/53ad49fe-9698-4f00-b7a9-71b913bd2843">
+
+## Not for Humans
+**Value** "10"  
+**Clue** "Having completed your introductory tour of our CTF, we invite you to explore a little more to find two additional flags that have been hidden on our site. The first is hidden in a place not designed for humans..."   
+**Hint** ""  
+**Flag** "BTC{1fY0uC4nR34dTh1sY0u'r3@N3rd=}"  
