@@ -57,4 +57,4 @@ This challenge provided a text file called `readme.txt` which contained a series
 **Hint** ""  
 **Flag** ""  
 
-This challenge actually relies on another challenge in the [Investigation](Investigation.md) category. 
+This challenge actually relies on another challenge in the [](Investigation.md) category. 
