@@ -1,4 +1,4 @@
-![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/2c6f9d75-3330-45e5-9baa-d7879a319fb9)
+![image](Screenshots/blueteambanner.png)
     
 # Last Minute CTF 2023
 "The Last Minute Capture the Flag [CTF] event is back for another year during Blue Team Con. This is a beginner-friendly CTF competition. Originally, this was a very last minute thing. This time, not quite so late, and with much better planning, but "Not Last Minute CTF" isn't as fun. However, we continue to provide a fun game via a unique learning experience. As this is being run at Blue Team Con, all of the puzzles and challenges will be related as best we can to defensive cybersecurity topics. Remember, we want you to learn, we just might not make everything too easy...
