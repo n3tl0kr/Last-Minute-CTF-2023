@@ -41,16 +41,6 @@ Xjg 7yRkH1zcesI
 BTC{68b40d89dffab559e8f5d273028a0472}
 ```
 
-## De...Code  
-**Value** "10"  
-**Clue** ""  
-**Hint** ""  
-**Flag** "BTC{QRCODESBYTOM}"  
-
-This challenge provided a text file called `readme.txt` which contained a series of bash color codes. When read in a terminal with cat, it produces a QR code which is actually a flag.
-
-<img width="440" alt="Pasted image 20230826163555" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/547f32a7-e289-4069-be84-5e0aa85ac979">
-
 ## Did Someone Find My Blue Team Con Key?
 **Value** "10"   
 **Clue** "If you find my key, I hope you know what to do with it."  
@@ -88,3 +78,20 @@ Blueteamcon  file.fs  spiral.txt  ssh.key  Theres_more
 ![image](https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/605fab4a-7cf9-4080-8f72-4b2b3a6c7395)
 
 6. The final flag is BTC{SSH_AND_NO_ROOT_FILES_YET}
+
+## De...Code  
+**Value** "10"  
+**Clue** ""  
+**Hint** ""  
+**Flag** "BTC{QRCODESBYTOM}"  
+
+This challenge provided a text file called `readme.txt` which contained a series of bash color codes. When read in a terminal with cat, it produces a QR code which is actually a flag.
+
+<img width="440" alt="Pasted image 20230826163555" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/547f32a7-e289-4069-be84-5e0aa85ac979">
+
+## Talkative
+**Value** ""
+**Clue** ""
+**Hint** ""
+**Flag** ""
+
