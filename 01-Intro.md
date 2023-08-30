@@ -57,7 +57,7 @@ Now we try to navigate to `../mystery.html` and poof, all of the sudden I'm look
 
 ![image](Screenshots/Legends4.png)
 
-At the bottom of this page I find another hyperlink, this time a `myster2.html` page. I have to admin that I'm slightly intrigued at this point. 
+At the bottom of this page I find another hyperlink, this time a `mystery2.html` page. I have to admin that I'm slightly intrigued at this point. 
 
 ![image](Screenshots/Legends5.png)
 
