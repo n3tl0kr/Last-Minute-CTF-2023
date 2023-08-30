@@ -112,4 +112,7 @@ It looks like we've reached the grand finale!  The final evidence page contains 
 **Flag** "BTC{Look@that,YouFoundItThisTime...}"  
 
 1. Based on the clue, I began to explore the CTF site looking for any other easter eggs within source code.
-2. When no other findings were identified, I moved to the [BlueTeamCon](https://www.blueteamcon.com) website to look for other potential clues.  Companies will often use a *security.txt* file to convey critical escalation information to security researchers for the sake of responsible disclosure and this file was indeed found as shown below, complete with a flag!!
+2. Companies will often use a *security.txt* file to convey critical escalation information to security researchers for the sake of responsible disclosure and this file was indeed found as shown below, complete with a flag!!
+
+<img width="1020" alt="image" src="https://github.com/n3tl0kr/Last-Minute-CTF-2023/assets/43141524/88b65545-c8fe-4ded-b48a-4c36cfcfd16b">
+
