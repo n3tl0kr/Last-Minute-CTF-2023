@@ -83,15 +83,15 @@ Moving along, this page contains a link for another `html` page, however the pag
 
 And another trick! Lets check out `view-source.txt`!
 
-<img width="1118" alt="image" src="Screenshots/Legends11.png">
+<img width="1118" alt="image" src="Screenshots/Legends10.png">
 
 From here, we are faced with another broken hyperlink.  This time, `turtle.html` seems to do the trick.
 
-<img width="1120" alt="image" src="Screenshots/Legends12.png">
+<img width="1120" alt="image" src="Screenshots/Legends11.png">
 
 As you can see below, things are really getting wild now.  
 
-<img width="1117" alt="image" src="Screenshots/Legends13.png">
+<img width="1117" alt="image" src="Screenshots/Legends12.png">
 
 This appears to be a clue, 2/3 of the next chapter.  "The Lobster" or "Lobster Quadrille" are the first things that come to mind, lets check it out!  `LobsterQuadrille.html` works!  Lets go!
 
